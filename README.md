@@ -9,7 +9,16 @@ VK-бот сообщества ВКонтакте «Мастер-Ломасте�
 ## Требования
 
 - Python 3.11+
-- Сообщество ВКontakte с включёнными сообщениями и доступом к Long Poll API
+- Сообщество ВКонтакте с включёнными сообщениями и доступом к Long Poll API
+
+## Получение кода
+
+Склонируйте репозиторий и перейдите в папку с ботом — все следующие команды выполняются из неё:
+
+```bash
+git clone https://github.com/LarisaSm/VK_BOT_2.git
+cd VK_BOT_2/master_lomaster_bot
+```
 
 ## Создание виртуального окружения
 
@@ -38,7 +47,11 @@ pip install -r requirements.txt
 1. Скопируйте `.env.example` в `.env`:
 
 ```bash
+# macOS/Linux
 cp .env.example .env
+
+# Windows
+copy .env.example .env
 ```
 
 2. Откройте `.env` и добавьте токен сообщества:
