@@ -1,0 +1,25 @@
+# Секреты (токены, телефоны) — шаблон лежит в .env.example
+.env
+!.env.example
+
+# Виртуальное окружение и кэш Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Данные, которые бот создаёт во время работы
+master_lomaster_bot/requests.json
+.vkbottle/
+*.log
+
+# Рабочие файлы, не нужные для запуска бота
+promt.md
+.claude/
+.opencode/
+
+# Редакторы и система
+.idea/
+.vscode/
+.DS_Store
